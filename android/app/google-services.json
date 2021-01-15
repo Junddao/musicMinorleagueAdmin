@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "723064669092",
+    "firebase_url": "https://musicminorleague.firebaseio.com",
+    "project_id": "musicminorleague",
+    "storage_bucket": "musicminorleague.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723064669092:android:c370e77a31f41fdf0b7731",
+        "android_client_info": {
+          "package_name": "com.jtb.musicMinorleague"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723064669092-euv6cdiuas0hr9nao0gqslfo3hqpsouc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jtb.musicMinorleague",
+            "certificate_hash": "1ccb7e3ea83b2bb70e71be1f80e6321cde0e80b3"
+          }
+        },
+        {
+          "client_id": "723064669092-i9ritnfja2uk0bhjl4r0pssqm4hndnhf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jtb.musicMinorleague",
+            "certificate_hash": "15a4350495099ea0af690e82802b15edb10c27f0"
+          }
+        },
+        {
+          "client_id": "723064669092-ifl4kutpttguql8bhb3i8r6ha4k8fttq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJM5fcoHHxXbbgPB2JCKt8RI7EBsJxBXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723064669092-ifl4kutpttguql8bhb3i8r6ha4k8fttq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "723064669092-vneoqqi6ihf7rgback7m3tebt56jq4t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jtb.musicMinorleague"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723064669092:android:5a70965457830a500b7731",
+        "android_client_info": {
+          "package_name": "com.jtb.music_minorleague_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723064669092-i298k9kv3jhnvuvsqt81r4pvjbamat2v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jtb.music_minorleague_admin",
+            "certificate_hash": "1ccb7e3ea83b2bb70e71be1f80e6321cde0e80b3"
+          }
+        },
+        {
+          "client_id": "723064669092-ifl4kutpttguql8bhb3i8r6ha4k8fttq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJM5fcoHHxXbbgPB2JCKt8RI7EBsJxBXM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723064669092-ifl4kutpttguql8bhb3i8r6ha4k8fttq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "723064669092-vneoqqi6ihf7rgback7m3tebt56jq4t6.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.jtb.musicMinorleague"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
