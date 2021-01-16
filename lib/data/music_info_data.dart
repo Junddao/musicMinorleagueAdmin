@@ -1,6 +1,7 @@
 import 'dart:convert';
 
 import 'package:enum_to_string/enum_to_string.dart';
+
 import 'package:music_minorleague_admin/enum/music_approval_enum.dart';
 import 'package:music_minorleague_admin/enum/music_type_enum.dart';
 
@@ -11,6 +12,8 @@ class MusicInfoData {
   String artist;
   String musicPath;
   String imagePath;
+  String musicFileName;
+  String imageFileName;
   String dateTime;
   int favorite;
   MusicApprovalEnum approval;
@@ -22,6 +25,8 @@ class MusicInfoData {
     this.artist,
     this.musicPath,
     this.imagePath,
+    this.musicFileName,
+    this.imageFileName,
     this.dateTime,
     this.favorite,
     this.approval,
@@ -37,6 +42,8 @@ class MusicInfoData {
       'artist': artist,
       'musicPath': musicPath,
       'imagePath': imagePath,
+      'musicFileName': musicFileName,
+      'imageFileName': imageFileName,
       'dateTime': dateTime,
       'favorite': favorite,
       'approval': EnumToString.convertToString(approval),
@@ -54,6 +61,8 @@ class MusicInfoData {
       artist: map['artist'],
       musicPath: map['musicPath'],
       imagePath: map['imagePath'],
+      musicFileName: map['musicFileName'],
+      imageFileName: map['imageFileName'],
       dateTime: map['dateTime'],
       favorite: map['favorite'],
       approval:

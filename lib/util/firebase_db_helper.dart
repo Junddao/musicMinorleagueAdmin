@@ -36,6 +36,13 @@ class FirebaseDBHelper {
     });
   }
 
+  static Future<void> updateApprovalStateData(
+      String collection, String doc, String data) async {
+    await firestoreinstance.collection(collection).doc(doc).update({
+      'approval': data,
+    });
+  }
+
   static Future<void> updateData(
       String collection, String doc, Map<String, dynamic> data) async {
     await firestoreinstance.collection(collection).doc(doc).update({
